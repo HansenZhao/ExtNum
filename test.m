@@ -1,0 +1,14 @@
+a = ExtNum(2.358e-300);
+a = a.multiValue(2568e-123);
+fprintf(1,'Small Number: ');
+disp(a);
+fprintf(1,'PLUS a+a: ');
+disp(a+a);
+fprintf(1,'Multiple a value 7.35e-200: ');
+disp(a.multiValue(7.35e-200));
+fprintf(1,'Square: ');
+disp(a*a);
+fprintf(1,'Divide a*a/a: ');
+disp(a*a/a);
+fprintf(1,'Compare a*(1.1) >= a: ');
+disp(a.multiValue(1.1)>=a);
